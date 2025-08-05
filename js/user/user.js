@@ -1,26 +1,26 @@
 class User {
     constructor(id, name, email) {
-      this.id = id;
-      this.name = name;
-      this.email = email;
+        this.id = id;
+        this.name = name;
+        this.email = email;
     }
 
-    getId(){
+    getId() {
         return this.id;
     }
 
-    getName(){
+    getName() {
         return this.name;
     }
 
-    getEmail(){
+    getEmail() {
         return this.email;
     }
 
-    equalsTo(user){
+    equalsTo(user) {
         return user.id === this.id;
     }
 
-  }
+}
 
 module.exports = User;
